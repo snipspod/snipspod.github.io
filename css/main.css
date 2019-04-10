@@ -1,0 +1,67 @@
+body {
+  background: rgba(50, 146, 166, 0.8);
+  margin-top: 106px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  background: linear-gradient(#fff, rgba(255, 255, 255, 0.9)); }
+  .navbar .nav-item {
+    font-size: 1.3rem;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem; }
+
+.separator {
+  border: none;
+  border-right: 1px solid #dee2e6; }
+
+#showcase {
+  position: relative;
+  background: url("../img/mountains.jpg");
+  min-height: 600px; }
+  #showcase .primary-overlay {
+    background: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+
+#boxes {
+  background: #fff; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#authors img {
+  margin-top: -50px; }
+#authors .card {
+  transition: all .2s ease; }
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+#authors .fab {
+  color: #fff; }
+
+#main-footer .lead {
+  margin-bottom: 0 !important; }
+
+@media (max-width: 767px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h2 {
+      font-size: 4rem; }
+
+  .mb-resp-sm {
+    margin-bottom: 1rem; } }
+@media (max-width: 991px) {
+  #authors img {
+    margin-top: 0; }
+
+  .separator {
+    border: none;
+    border-bottom: 1px solid #dee2e6; }
+
+  .mb-resp-md {
+    margin-bottom: 1rem; } }
