@@ -14,6 +14,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="aos/aos.css">
     <link rel="stylesheet" href="css/main.css" />
     <title>Mizuxe Theme</title>
   </head>
@@ -122,7 +123,7 @@
     <section id="boxes" class="py-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3" data-aos="fade-up">
             <div class="card text-center border-primary mb-resp-sm">
               <div class="card-body">
                 <h3 class="text-primary">Be Better</h3>
@@ -133,7 +134,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3" data-aos="fade-up">
             <div class="card text-center text-white bg-primary mb-resp-sm">
               <div class="card-body">
                 <h3>Be Smart</h3>
@@ -144,7 +145,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3" data-aos="fade-up">
             <div class="card text-center border-primary mb-resp-sm">
               <div class="card-body">
                 <h3 class="text-primary">Be Fast</h3>
@@ -155,7 +156,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3" data-aos="fade-up">
             <div class="card text-center text-white bg-primary">
               <div class="card-body">
                 <h3>Be Strong</h3>
@@ -176,7 +177,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
-            <div class="info-header mb-5">
+            <div class="info-header mb-5" data-aos="fade-up">
               <h1 class="text-primary pb-3">
                 Why This Book?
               </h1>
@@ -187,7 +188,7 @@
             </div>
             <!-- ACCORDION -->
             <div id="accordion">
-              <div class="card">
+              <div class="card" data-aos="fade-up">
                 <div class="card-header">
                   <h5 class="mb-0">
                     <div
@@ -212,7 +213,7 @@
                 </div>
               </div>
 
-              <div class="card mt-2">
+              <div class="card mt-2" data-aos="fade-up">
                 <div class="card-header">
                   <h5 class="mb-0">
                     <div
@@ -238,7 +239,7 @@
                 </div>
               </div>
 
-              <div class="card mt-2">
+              <div class="card mt-2" data-aos="fade-up">
                 <div class="card-header">
                   <h5 class="mb-0">
                     <div
@@ -273,7 +274,7 @@
     <section id="authors" class="py-5 text-center bg-white">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col" data-aos="fade-up">
             <div class="info-header mb-5">
               <h1 class="text-primary pb-3">
                 Meet The Authors
@@ -287,7 +288,7 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-3 col-md-6 mb-resp-md">
+          <div class="col-lg-3 col-md-6 mb-resp-md" data-aos="fade-up">
             <div class="card">
               <div class="card-body">
                 <img
@@ -323,7 +324,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mb-resp-md">
+          <div class="col-lg-3 col-md-6 mb-resp-md" data-aos="fade-up">
             <div class="card">
               <div class="card-body">
                 <img
@@ -359,7 +360,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mb-resp-md">
+          <div class="col-lg-3 col-md-6 mb-resp-md" data-aos="fade-up">
             <div class="card">
               <div class="card-body">
                 <img
@@ -395,7 +396,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 mb-resp-md">
+          <div class="col-lg-3 col-md-6 mb-resp-md" data-aos="fade-up">
             <div class="card">
               <div class="card-body">
                 <img
@@ -440,12 +441,12 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-9">
-            <h3>Get In Touch</h3>
-            <p class="lead">
+            <h3 data-aos="fade-up">Get In Touch</h3>
+            <p class="lead" data-aos="fade-up">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
               animi!
             </p>
-            <form>
+            <form data-aos="fade-up">
               <div class="input-group input-group-lg mb-3">
                 <div class="input-group-prepend">
                   <span class="input-group-text">
@@ -478,7 +479,7 @@
             </form>
           </div>
 
-          <div class="col-lg-3 align-self-center d-none d-lg-block">
+          <div class="col-lg-3 align-self-center d-none d-lg-block" data-aos="fade-up">
             <img src="img/mlogo.png" alt="logo" class="img-fluid">
           </div>
         </div>
@@ -514,8 +515,10 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="aos/aos.js"></script>
     <script src="js/navbar.js"></script>
     <script>
+      AOS.init();
       $('#year').text(new Date().getFullYear());
     </script>
   </body>
