@@ -31,3 +31,24 @@ $(".nav-link").on("click", function(e) {
     );
   }
 });
+
+
+$('#toggle-button').click(function(){
+  if(!($('#navbarCollapse').hasClass('show'))){
+    $('#showcase').addClass('blur');
+    $('#newsletter').addClass('blur');
+    $('#boxes').addClass('blur');
+    $('#about').addClass('blur');
+    $('#authors').addClass('blur');
+    $('#contact').addClass('blur');
+    $('#main-footer').addClass('blur');
+  }else{
+    $('#showcase').removeClass('blur');
+    $('#newsletter').removeClass('blur');
+    $('#boxes').removeClass('blur');
+    $('#about').removeClass('blur');
+    $('#authors').removeClass('blur');
+    $('#contact').removeClass('blur');
+    $('#main-footer').removeClass('blur');
+  }
+})

@@ -1,3 +1,6 @@
+.blur-transition {
+  transition: filter .3s ease; }
+
 body {
   background: rgba(50, 146, 166, 0.8);
   margin-top: 106px; }
@@ -46,6 +49,9 @@ body {
 
 #main-footer .lead {
   margin-bottom: 0 !important; }
+
+.blur {
+  filter: blur(5px); }
 
 @media (max-width: 767px) {
   #showcase {

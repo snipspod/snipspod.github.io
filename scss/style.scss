@@ -1,6 +1,10 @@
 $primary: #3292a6;
 $primary-overlay: rgba(50, 146, 166, 0.8);
 
+.blur-transition{
+  transition: filter .3s ease;
+}
+
 body {
   background: $primary-overlay;
   margin-top: 106px;
@@ -70,6 +74,10 @@ body {
   .lead{
     margin-bottom: 0 !important;
   }
+}
+
+.blur{
+  filter: blur(5px);
 }
 
 @media (max-width: 767px) {
