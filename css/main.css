@@ -51,7 +51,8 @@ body {
   margin-bottom: 0 !important; }
 
 .blur {
-  filter: blur(5px); }
+  filter: blur(5px);
+  -webkit-filter: blur(5px); }
 
 @media (max-width: 767px) {
   #showcase {
